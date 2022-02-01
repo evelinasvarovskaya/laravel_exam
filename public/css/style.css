@@ -1,0 +1,86 @@
+body{
+    /* background-color: rgb(43, 40, 40); */
+
+    color: #000000;
+    caret-color: #000000;
+
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+
+.navigation_main{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+
+    list-style-type: none;
+    margin-bottom: 20px;
+
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+
+a{
+
+    background-color: rgb(182, 178, 178);
+    margin-top: 20px;
+    padding: 10px 15px;
+    position: relative;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+
+a:link, a:visited {
+
+    color:#000000;
+    caret-color: #ffffff;
+    text-decoration:none
+}
+
+a:hover, button:hover {
+
+    color:#a3a3a3;
+    /* background-color:#3a3a3a; */
+    text-decoration: none;
+    transform: scale(1.1)
+}
+
+a:active, button:active {
+    background-color:#584e4e;
+}
+
+input{
+    background-color: rgb(182, 178, 178);
+    padding: 5px 10px;
+    position: relative;
+    font-family: sans-serif;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    /* border-radius: 7px; */
+    border: 0;
+    margin: 1%;
+}
+
+button{
+    color:#ffffff;
+    background-color: rgb(85, 85, 85);
+    padding: 0.5em 1em;
+    position: relative;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 7px;
+    border: 0;
+    margin: 1%;
+}
+
+.active {
+    background-color: #96718c;
+}
